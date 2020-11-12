@@ -15,5 +15,8 @@ int main(int argc, char *argv[]) {
 	printf("i = %d, *p = %d, **q= %d\n", i, *p, **q);
 	
 	
+	printf("%p %p\n", p, *q);
+	
+	
 	return 0;
 }
